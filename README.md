@@ -21,69 +21,34 @@ Tool Launcher 1.0 is designed for Windows and stores its launcher configuration 
 
 ## Screenshots
 
-These screenshots were captured from the real Version 1.0 application. The launcher can be presented with a plain background, custom artwork, different themes, and individually generated application banners or icons.
+### Launcher and themes
 
-### Launcher
+![Tool Launcher with Steam-inspired theme](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20202214.png?raw=true)
 
-![Launcher with a custom gaming background, application banners, and hardware dashboard](docs/screenshots/main-launcher.png)
+| Custom appearance | Razer-inspired theme |
+| --- | --- |
+| ![Tool Launcher custom appearance](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20202015.png?raw=true) | ![Tool Launcher Razer-inspired theme](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20202234.png?raw=true) |
 
-![Benchmark category with custom application banners](docs/screenshots/benchmark-launcher.png)
+### Categories
 
-### Themes and Appearance
+| Gaming Tools | Graphics |
+| --- | --- |
+| ![Gaming Tools category](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20230900.png?raw=true) | ![Graphics category](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20230906.png?raw=true) |
 
-<p>
-  <img src="docs/screenshots/theme-custom.png" alt="Custom launcher theme" width="32%">
-  <img src="docs/screenshots/theme-gog-galaxy.png" alt="GOG Galaxy launcher theme" width="32%">
-  <img src="docs/screenshots/theme-razer-cortex.png" alt="Razer Cortex launcher theme" width="32%">
-</p>
+![Benchmark category](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20230911.png?raw=true)
 
-![Theme and appearance customization](docs/screenshots/themes-customization.png)
+### Dashboard and AI artwork tools
 
-### Hardware Dashboard
+| Dashboard settings | AI Background Generator |
+| --- | --- |
+| ![Dashboard settings](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20203020.png?raw=true) | ![AI Background Generator](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20203828.png?raw=true) |
 
-<p>
-  <img src="docs/screenshots/hardware-dashboard.png" alt="Live hardware dashboard" width="18%">
-  <img src="docs/screenshots/dashboard-settings.png" alt="Dashboard settings and configurable modules" width="70%">
-</p>
+| AI Icon Generator | AI Banner Generator |
+| --- | --- |
+| ![AI Icon Generator](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20204351.png?raw=true) | ![AI Banner Generator](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20205446.png?raw=true) |
 
-### Launcher Controls and Languages
 
-<p>
-  <img src="docs/screenshots/create-menu.png" alt="Create menu" width="40%">
-  <img src="docs/screenshots/app-context-menu.png" alt="Application context menu" width="20%">
-</p>
 
-![Language selection with 16 interface languages](docs/screenshots/language-settings.png)
-
-### AI-Assisted Artwork Workflows
-
-![Background Generator with a completed launcher background](docs/screenshots/background-generator.png)
-
-![Icon Generator with a completed square application icon](docs/screenshots/icon-generator.png)
-
-![Banner Generator using a custom scene description with a completed application banner](docs/screenshots/banner-generator.png)
-
-## AI Creation Tools
-
-Tool Launcher 1.0 includes AI-assisted prompt and image workflows. Direct image generation inside the application is disabled in this release. Prompts can be transferred to supported external AI services, and the resulting image can then be imported into Tool Launcher.
-
-### Background Generator
-
-The Background Generator provides guided controls for composing a background prompt, including scene, style, mood, aspect ratio, and target resolution. A prompt can be copied or saved and opened with ChatGPT or Gemini in the default browser.
-
-Completed PNG, JPEG, or WebP images can be pasted, dropped, selected from disk, or fetched from a supplied image URL. Imported images can be previewed, cropped, resized, saved, and applied globally or to a category.
-
-### Icon Generator
-
-The Icon Generator helps prepare prompts for application icons. It includes options for application type, visual style, background, logo treatment, and text placement. An existing launcher application can be selected as the target, and an imported result can be saved or applied to that application.
-
-### Banner Generator
-
-The Banner Generator uses the same assisted workflow in a wide-format mode intended for application banners and background artwork. It supports prompt preparation, external AI services, image import, preview, saving, and application to launcher entries.
-
-### Local Upscaling
-
-The Background Generator includes local image upscaling based on Real-ESRGAN NCNN Vulkan. The processing runs on the local computer and requires a Vulkan-capable GPU and a compatible graphics driver. It is not a CPU-based fallback and is not required for the rest of Tool Launcher.
 
 ## Themes & Customization
 
@@ -213,5 +178,4 @@ Original Tool Launcher artwork was generated using ChatGPT and selected, reviewe
 Tool Launcher can open ChatGPT and Gemini as external services but does not include or operate those services. Steam, GOG Galaxy, Razer Cortex, ChatGPT, Gemini, HWiNFO, AIDA64, PayPal, and Buy Me a Coffee are names or trademarks of their respective owners. No affiliation or endorsement is claimed.
 
 See `THIRD_PARTY_NOTICES.md` for the current component inventory and unresolved licensing checks.
-
 
