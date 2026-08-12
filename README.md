@@ -58,21 +58,49 @@ Custom is the standard appearance used by Tool Launcher. It combines a personal 
 
 Users can switch between complete presets or stay with Custom and experiment with accent colors, fonts, font weight, application presentation, backgrounds, overlays, transparency, animations, and other visual effects. Changes are applied immediately.
 
-### Categories
+### Create and Organize Your Own Categories
 
-| Gaming Tools | Graphics |
+Categories are not a fixed set imposed by Tool Launcher. Create as many as you need, give each one a personal name, and organize the launcher around your own applications and workflow.
+
+| Open the Launcher menu | Name the new category |
 | --- | --- |
-| ![Gaming Tools category](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20230900.png?raw=true) | ![Graphics category](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20230906.png?raw=true) |
+| ![Launcher menu with Add app, Add category, and Settings](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/category-menu.png?raw=true) | ![Add category dialog with a freely editable category name](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/add-category-dialog.png?raw=true) |
 
-![Benchmark category](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20230911.png?raw=true)
+Every category can have its own collection of applications and its own visual identity. The examples below are personal configurations, not built-in category requirements.
 
-### Dashboard, Icon Generator, and Banner Generator
+| Personal Games category | Personal Benchmark category |
+| --- | --- |
+| ![A personally configured Games category with its own application banners and background](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/launcher-custom-default.png?raw=true) | ![A personally configured Benchmark category with its own application banners and background](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/category-benchmark-custom.png?raw=true) |
 
-![Dashboard settings](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20203020.png?raw=true)
+<p align="center">
+  <img src="https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/category-context-menu.png?raw=true" alt="Category context menu with Rename, Background, Generate AI background, and Delete" width="430">
+</p>
+
+The category context menu keeps the most important actions close at hand: rename the category, select an existing background, open the AI Background Generator for that category, or delete it. Categories can also be reordered, so the navigation follows your priorities rather than a predefined structure.
+
+### From an App to Its Own Icon or Banner
+
+<p align="center">
+  <img src="https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/app-context-menu.png?raw=true" alt="Application context menu with banner editing and AI Banner Generator access" width="430">
+</p>
+
+Right-click an application to open its actions. Alongside launching as administrator, properties, renaming, and deleting, the menu provides access to the current icon or banner and opens the matching AI creation workflow directly for that launcher entry.
 
 | AI Icon Generator | AI Banner Generator |
 | --- | --- |
-| ![AI Icon Generator](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20204351.png?raw=true) | ![AI Banner Generator](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20205446.png?raw=true) |
+| ![AI Icon Generator with Adobe Acrobat selected as the target application](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20204351.png?raw=true) | ![AI Banner Generator with Adobe Acrobat selected as the target application](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20205446.png?raw=true) |
+
+The selected application is carried into the generator, where its name, presentation type, composition, background, and visual style can be prepared. After generating the artwork through ChatGPT or Gemini and importing the result, it can be saved separately or applied directly to the selected launcher tile.
+
+### A Configurable Hardware Dashboard
+
+<p align="center">
+  <img src="https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/dashboard-sidebar.png?raw=true" alt="Hardware dashboard sidebar with live graphs for CPU, GPU, memory, network, and drives" width="20%">
+  &nbsp;&nbsp;
+  <img src="https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/dashboard-settings.png?raw=true" alt="Dashboard settings with layout, live modules, refresh rate, and optional sensor sources" width="76%">
+</p>
+
+The dashboard is more than decoration: it provides live CPU, GPU, memory, network, and drive information without leaving the launcher. Modules can be shown or hidden, renamed, reordered, and positioned on either side. Transparency, overlay strength, and refresh rate are adjustable, while optional HWiNFO or AIDA64 integration can add further sensor data when those applications are installed separately.
 
 ## AI Creation Tools
 
