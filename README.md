@@ -40,11 +40,23 @@ The Style step makes the artistic direction visible before the prompt is transfe
 
 ### Launcher and Themes
 
-![Tool Launcher with Steam-inspired theme](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20202214.png?raw=true)
+#### Custom — The Default Launcher Appearance
 
-| Custom appearance | Razer-inspired theme |
-| --- | --- |
-| ![Tool Launcher custom appearance](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20202015.png?raw=true) | ![Tool Launcher Razer-inspired theme](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20202234.png?raw=true) |
+![Tool Launcher with its customizable default appearance, personal gaming background, application banners, and hardware dashboard](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/launcher-custom-default.png?raw=true)
+
+Custom is the standard appearance used by Tool Launcher. It combines a personal background, application banners or icons, dashboard modules, and individually adjustable colors, typography, transparency, blur, animations, and layout options.
+
+#### Complete Theme Presets
+
+| Steam-inspired | GOG-inspired | Razer Cortex-inspired |
+| --- | --- | --- |
+| ![Tool Launcher with Steam-inspired theme](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20202015.png?raw=true) | ![Tool Launcher with GOG-inspired theme](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20202214.png?raw=true) | ![Tool Launcher with Razer Cortex-inspired theme](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20202234.png?raw=true) |
+
+#### Appearance Settings
+
+![Appearance settings with custom controls and selectable theme presets](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/appearance-theme-settings.png?raw=true)
+
+Users can switch between complete presets or stay with Custom and experiment with accent colors, fonts, font weight, application presentation, backgrounds, overlays, transparency, animations, and other visual effects. Changes are applied immediately.
 
 ### Categories
 
