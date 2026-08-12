@@ -1,6 +1,6 @@
 # Tool Launcher
 
-Tool Launcher is a customizable Windows desktop launcher for organizing applications into visual categories. It combines application management, a configurable hardware dashboard, theme presets, local image processing, and AI-assisted prompt workflows for backgrounds, icons, and banners.
+Tool Launcher is a customizable Windows desktop launcher for organizing applications into visual categories. It combines application management, a configurable hardware dashboard, theme presets, local image processing, and a complete AI-assisted wallpaper studio alongside tools for icons and banners.
 
 Tool Launcher 1.0 is designed for Windows and stores its launcher configuration locally. The AI creation tools in this release help compose prompts and import finished images; they do not generate images directly inside the application.
 
@@ -16,12 +16,29 @@ Tool Launcher 1.0 is designed for Windows and stores its launcher configuration 
 - Use compact, standard, or wide layouts with multiple tile sizes.
 - Switch between banner-only and icon-only presentation.
 - Configure colors, fonts, overlays, blur, transparency, animations, and hover effects.
+- Design personal desktop wallpapers with the guided AI Background Generator.
+- Start instantly with 1,840 built-in scene motifs when no custom scene description is entered.
+- Export finished backgrounds to the computer in multiple aspect ratios and resolutions, or apply them directly to the launcher.
 - Use the system tray, start minimized, enable Windows autostart, and configure a global launcher hotkey.
 - Back up and restore launcher data and important appearance settings as JSON.
 
 ## Screenshots
 
-### Launcher and themes
+These screenshots were captured from the real Version 1.0 application. The launcher can be presented with a plain background, custom artwork, different themes, and individually generated application banners or icons.
+
+### AI Background Generator — From an Idea to a Finished Wallpaper
+
+![AI Background Generator with guided scene creation, target resolution, prompt transfer, image preview, local upscaling, saving, and launcher application](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20203828.png?raw=true)
+
+The Background Generator is one of Tool Launcher's central creative features. It guides the user through subject, style, mood, composition, and refinement, prepares the final prompt for ChatGPT or Gemini, and provides a workspace for importing and finishing the generated image. The result can be saved to the computer as a standalone wallpaper or applied directly as a global or category background inside Tool Launcher.
+
+#### Explore and Control the Visual Style
+
+![Background Generator Style step with Sketch selected, render-style previews, strength controls, and a completed 4K wallpaper](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/background-generator-style.png?raw=true)
+
+The Style step makes the artistic direction visible before the prompt is transferred. It includes Cinematic, Realistic, Dark Premium, Concept Art, Anime, Oil Painting, Sketch, Pixel Art, Low Poly, and Surreal looks. Render Strength can be set to Natural, Stylized, or Extreme, allowing anything from a subtle influence to a strongly expressive transformation.
+
+### Launcher and Themes
 
 ![Tool Launcher with Steam-inspired theme](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20202214.png?raw=true)
 
@@ -37,18 +54,64 @@ Tool Launcher 1.0 is designed for Windows and stores its launcher configuration 
 
 ![Benchmark category](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20230911.png?raw=true)
 
-### Dashboard and AI artwork tools
+### Dashboard, Icon Generator, and Banner Generator
 
-| Dashboard settings | AI Background Generator |
-| --- | --- |
-| ![Dashboard settings](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20203020.png?raw=true) | ![AI Background Generator](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20203828.png?raw=true) |
+![Dashboard settings](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20203020.png?raw=true)
 
 | AI Icon Generator | AI Banner Generator |
 | --- | --- |
 | ![AI Icon Generator](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20204351.png?raw=true) | ![AI Banner Generator](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20205446.png?raw=true) |
 
+## AI Creation Tools
 
+Tool Launcher 1.0 includes AI-assisted prompt and image workflows. Direct image generation inside the application is disabled in this release. Prompts can be transferred to supported external AI services, and the resulting image can then be imported into Tool Launcher.
 
+### Background Generator
+
+The Background Generator is a full guided workflow for creating artwork for both Tool Launcher and the Windows desktop. It is designed to turn an initial idea into a carefully structured image prompt and then help prepare the returned image for practical use.
+
+The five-step studio covers:
+
+- **Basis:** choose a main category, content type, preset, aspect ratio, and target resolution, or describe a completely custom scene.
+- **Style:** select the visual language and rendering style of the image.
+- **Mood:** control atmosphere, lighting, color world, and emotional direction.
+- **Composition:** decide how the scene is framed and where visual space should remain free for desktop icons or launcher tiles.
+- **Refine:** add final details and exclusions before creating the finished prompt.
+
+Prompts can be copied or saved and transferred to ChatGPT or Gemini in the default browser. A custom scene description is optional: when the field is left empty, Tool Launcher automatically chooses a fitting scene from a library of 1,840 prepared motifs across Nature, Sci-Fi, Fantasy, Urban, Lifestyle, Automotive, and Gaming. The dice button can immediately reroll the motif, while Random Inspiration can also vary the wider creative setup and provide a completely new starting point.
+
+Generated or existing PNG, JPEG, and WebP images can be pasted from the clipboard, dropped into the workspace, selected from disk, or fetched from a supplied image URL. Tool Launcher previews the result and can crop and resize it to the selected target format. Optional local AI upscaling can prepare a smaller source image for the requested output size on a compatible Vulkan GPU.
+
+The finished image can then be:
+
+- saved locally to any chosen folder and used as a normal Windows wallpaper;
+- applied as the global Tool Launcher background;
+- assigned to a specific launcher category;
+- retained as an independent image rather than being tied to the launcher.
+
+#### Wallpaper Formats and Resolutions
+
+| Format | HD | 2K | 4K |
+| --- | --- | --- | --- |
+| 16:9 desktop | 1920×1080 | 2560×1440 | 3840×2160 |
+| 21:9 ultrawide | 2560×1080 | 3440×1440 | 5120×2160 |
+| 32:9 super ultrawide | 3840×1080 | 5120×1440 | 7680×2160 |
+| 9:16 portrait | 1080×1920 | 1440×2560 | 2160×3840 |
+| 1:1 square | 1024×1024 | 1536×1536 | 2048×2048 |
+
+Custom width and height values are also supported, making the generator useful for standard monitors, ultrawide and dual-screen setups, portrait displays, square artwork, and other personal formats.
+
+### Icon Generator
+
+The Icon Generator helps prepare prompts for application icons. It includes options for application type, visual style, background, logo treatment, and text placement. An existing launcher application can be selected as the target, and an imported result can be saved or applied to that application.
+
+### Banner Generator
+
+The Banner Generator uses the same assisted workflow in a wide-format mode intended for application banners and background artwork. It supports prompt preparation, external AI services, image import, preview, saving, and application to launcher entries.
+
+### Local Upscaling
+
+The Background Generator includes local image upscaling based on Real-ESRGAN NCNN Vulkan. The processing runs on the local computer and requires a Vulkan-capable GPU and a compatible graphics driver. It is not a CPU-based fallback and is not required for the rest of Tool Launcher.
 
 ## Themes & Customization
 
@@ -130,7 +193,7 @@ Use the launcher menu to add applications or categories. Applications can also b
 
 Open Settings to configure general behavior, appearance, themes, dashboard modules, languages, backup and restore, and support links. The default global hotkey is `Alt+Space`, and alternative hotkeys are available in Settings.
 
-The Create menu opens the Background Generator, Icon Generator, or Banner Generator.
+The Create menu opens the Background Generator, Icon Generator, or Banner Generator. In the Background Generator, move through Basis, Style, Mood, Composition, and Refine, transfer the completed prompt to ChatGPT or Gemini, and import the resulting image back into the preview. From there it can be saved to the computer for use as a Windows wallpaper or applied directly to Tool Launcher.
 
 ## Configuration / Data Location
 
@@ -178,4 +241,3 @@ Original Tool Launcher artwork was generated using ChatGPT and selected, reviewe
 Tool Launcher can open ChatGPT and Gemini as external services but does not include or operate those services. Steam, GOG Galaxy, Razer Cortex, ChatGPT, Gemini, HWiNFO, AIDA64, PayPal, and Buy Me a Coffee are names or trademarks of their respective owners. No affiliation or endorsement is claimed.
 
 See `THIRD_PARTY_NOTICES.md` for the current component inventory and unresolved licensing checks.
-
