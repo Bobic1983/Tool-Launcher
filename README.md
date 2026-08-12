@@ -178,7 +178,7 @@ The installer interface is available in English and German. The initial launcher
 
 ## Installation
 
-1. Download `Tool.Launcher.Setup.1.0.0.exe` from the [official GitHub release](https://github.com/Bobic1983/Tool-Launcher/releases/latest).
+1. Download `Tool.Launcher.Setup.1.0.1.exe` from the [official GitHub release](https://github.com/Bobic1983/Tool-Launcher/releases/latest).
 2. Run the installer.
 3. Choose the destination folder and optional desktop, Start menu, and autostart settings.
 4. Select the initial launcher language.
