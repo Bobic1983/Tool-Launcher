@@ -164,8 +164,6 @@ Version 1.0 includes the following selectable presets:
 
 Users can also configure accent colors, banner color strength, font family and weight, animations, hover effects, transitions, application name visibility, tile size, layout width, category backgrounds, overlays, blur, and transparency.
 
-The Theme Preset Studio is a development-only tool and is not available in the packaged Version 1.0 application.
-
 ## Hardware Dashboard
 
 The configurable dashboard displays locally collected Windows hardware information:
@@ -264,20 +262,17 @@ These links open external websites in the default browser.
 
 Launcher configuration, hardware readings, backups, imported images, and local upscaling are processed on the user's computer. No application telemetry or active automatic update service was found in Version 1.0.
 
-Tool Launcher opens approved external websites only for actions initiated by the user, such as ChatGPT, Gemini, PayPal, and Buy Me a Coffee. Those services are governed by their own privacy policies. Supplying a remote image URL instructs Tool Launcher to fetch that URL. Local and private network destinations are rejected, redirects are revalidated, and downloads are limited to 25 MB. Direct OpenAI API image generation and ComfyUI generation are disabled in the packaged Version 1.0 application.
+Tool Launcher opens approved external websites only for actions initiated by the user, such as ChatGPT, Gemini, PayPal, and Buy Me a Coffee. Those services are governed by their own privacy policies. Supplying a remote image URL instructs Tool Launcher to fetch that URL. Local and private network destinations are rejected, redirects are revalidated, and downloads are limited to 25 MB.
 
 ## License
 
 Tool Launcher is proprietary software. The source code is not distributed, and no permission to copy, modify, or redistribute the application or its source code is granted unless the project owner gives explicit written permission. All rights reserved.
 
-The application uses third-party components with their own licenses. See `THIRD_PARTY_NOTICES.md` before distribution.
-
 ## Credits / Third-Party Components
 
 Major components include Electron, React, Sharp/libvips, Real-ESRGAN NCNN Vulkan, and the bundled Inter, Cinzel, Lato, Roboto, and Roboto Condensed fonts. Optional sensor integration is available for separately installed HWiNFO and AIDA64.
 
-Original Tool Launcher artwork was generated using ChatGPT and selected, reviewed, and integrated by the project owner. See `ASSET_PROVENANCE.md` for the recorded scope and exclusions.
+Original Tool Launcher artwork was generated using ChatGPT and selected, reviewed, and integrated by the project owner.
 
 Tool Launcher can open ChatGPT and Gemini as external services but does not include or operate those services. Steam, GOG Galaxy, Razer Cortex, ChatGPT, Gemini, HWiNFO, AIDA64, PayPal, and Buy Me a Coffee are names or trademarks of their respective owners. No affiliation or endorsement is claimed.
 
-See `THIRD_PARTY_NOTICES.md` for the current component inventory and unresolved licensing checks.
