@@ -17,6 +17,7 @@ Tool Launcher 1.0 is designed for Windows and stores its launcher configuration 
 - Switch between banner-only and icon-only presentation.
 - Configure colors, fonts, overlays, blur, transparency, animations, and hover effects.
 - Design personal desktop wallpapers with the guided AI Background Generator.
+- Learn unfamiliar generator controls through contextual tooltips and dedicated toolbox panels for each creative step.
 - Start instantly with 1,840 built-in scene motifs when no custom scene description is entered.
 - Export finished backgrounds to the computer in multiple aspect ratios and resolutions, or apply them directly to the launcher.
 - Use the system tray, start minimized, enable Windows autostart, and configure a global launcher hotkey.
@@ -28,15 +29,23 @@ These screenshots were captured from the real Version 1.0 application. The launc
 
 ### AI Background Generator — From an Idea to a Finished Wallpaper
 
-![AI Background Generator with guided scene creation, target resolution, prompt transfer, image preview, local upscaling, saving, and launcher application](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20203828.png?raw=true)
+![AI Background Generator with guided scene creation, target resolution, prompt transfer, image preview, local upscaling, saving, and launcher application](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/background-generator-overview.png?raw=true)
 
 The Background Generator is one of Tool Launcher's central creative features. It guides the user through subject, style, mood, composition, and refinement, prepares the final prompt for ChatGPT or Gemini, and provides a workspace for importing and finishing the generated image. The result can be saved to the computer as a standalone wallpaper or applied directly as a global or category background inside Tool Launcher.
+
+Version 1.0.2 adds context-sensitive tooltips and expanded toolbox panels throughout the studio. They explain what individual choices change, clarify less familiar controls, and make the large creative workflow easier to explore without leaving the current step.
 
 #### Explore and Control the Visual Style
 
 ![Background Generator Style step with Sketch selected, render-style previews, strength controls, and a completed 4K wallpaper](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/background-generator-style.png?raw=true)
 
 The Style step makes the artistic direction visible before the prompt is transferred. It includes Cinematic, Realistic, Dark Premium, Concept Art, Anime, Oil Painting, Sketch, Pixel Art, Low Poly, and Surreal looks. Render Strength can be set to Natural, Stylized, or Extreme, allowing anything from a subtle influence to a strongly expressive transformation.
+
+#### Shape Mood, Composition, and Final Detail
+
+| Mood | Composition | Refine |
+| --- | --- | --- |
+| ![Background Generator Mood step](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/background-generator-mood.png?raw=true) | ![Background Generator Composition step](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/background-generator-composition.png?raw=true) | ![Background Generator Refine step](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/background-generator-refine.png?raw=true) |
 
 ### Launcher and Themes
 
@@ -88,16 +97,16 @@ Right-click an application to open its actions. Alongside launching as administr
 
 | AI Icon Generator | AI Banner Generator |
 | --- | --- |
-| ![AI Icon Generator with Adobe Acrobat selected as the target application](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20204351.png?raw=true) | ![AI Banner Generator with Adobe Acrobat selected as the target application](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/Screenshot%202026-08-11%20205446.png?raw=true) |
+| ![AI Icon Generator with a complete icon workflow](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/icon-generator.png?raw=true) | ![AI Banner Generator with a complete banner workflow](https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/banner-generator.png?raw=true) |
 
 The selected application is carried into the generator, where its name, presentation type, composition, background, and visual style can be prepared. After generating the artwork through ChatGPT or Gemini and importing the result, it can be saved separately or applied directly to the selected launcher tile.
 
 ### A Configurable Hardware Dashboard
 
 <p align="center">
-  <img src="https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/dashboard-sidebar.png?raw=true" alt="Hardware dashboard sidebar with live graphs for CPU, GPU, memory, network, and drives" width="20%">
+  <img src="https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/dashboard-sidebar.png?raw=true" alt="Hardware dashboard sidebar with live graphs for CPU, GPU, memory, network, and drives" width="14.5%">
   &nbsp;&nbsp;
-  <img src="https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/dashboard-settings.png?raw=true" alt="Dashboard settings with layout, live modules, refresh rate, and optional sensor sources" width="76%">
+  <img src="https://github.com/Bobic1983/Tool-Launcher/blob/main/screenshots/dashboard-settings.png?raw=true" alt="Dashboard settings with layout, live modules, refresh rate, and optional sensor sources" width="83%">
 </p>
 
 The dashboard is more than decoration: it provides live CPU, GPU, memory, network, and drive information without leaving the launcher. Modules can be shown or hidden, renamed, reordered, and positioned on either side. Transparency, overlay strength, and refresh rate are adjustable, while optional HWiNFO or AIDA64 integration can add further sensor data when those applications are installed separately.

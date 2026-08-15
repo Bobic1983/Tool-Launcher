@@ -6,6 +6,7 @@ Tool Launcher 1.0.2 is a major interface and workflow refinement update focused 
 
 - Reworked the AI Icon Generator and AI Banner Generator with clearer guided workflows, larger previews, improved controls, and direct prompt handoff to ChatGPT or Gemini.
 - Expanded and polished the AI Background Generator with richer scene, style, mood, composition, and refinement choices.
+- Added context-sensitive tooltips and dedicated toolbox panels across the generator workflow, with clearer guidance for controls, creative choices, and their visual effects.
 - Added improved image import, preview, save, apply, and local upscaling workflows.
 - Refined Settings and the Custom, Steam, GOG Galaxy, and Razer Cortex theme presets.
 
