@@ -2,7 +2,7 @@
 
 Tool Launcher is a customizable Windows desktop launcher for organizing applications into visual categories. It combines application management, a configurable hardware dashboard, theme presets, local image processing, and a complete AI-assisted wallpaper studio alongside tools for icons and banners.
 
-Tool Launcher 1.0 is designed for Windows and stores its launcher configuration locally. The AI creation tools in this release help compose prompts and import finished images; they do not generate images directly inside the application.
+Tool Launcher is designed for Windows and stores its launcher configuration locally. The AI creation tools help compose prompts and import finished images; they do not generate images directly inside the application.
 
 ## Features
 
@@ -25,7 +25,7 @@ Tool Launcher 1.0 is designed for Windows and stores its launcher configuration 
 
 ## Screenshots
 
-These screenshots were captured from the real Version 1.0 application. The launcher can be presented with a plain background, custom artwork, different themes, and individually generated application banners or icons.
+These screenshots were captured from the real application. The launcher can be presented with a plain background, custom artwork, different themes, and individually generated application banners or icons.
 
 ### AI Background Generator — From an Idea to a Finished Wallpaper
 
@@ -33,7 +33,7 @@ These screenshots were captured from the real Version 1.0 application. The launc
 
 The Background Generator is one of Tool Launcher's central creative features. It guides the user through subject, style, mood, composition, and refinement, prepares the final prompt for ChatGPT or Gemini, and provides a workspace for importing and finishing the generated image. The result can be saved to the computer as a standalone wallpaper or applied directly as a global or category background inside Tool Launcher.
 
-Version 1.0.2 adds context-sensitive tooltips and expanded toolbox panels throughout the studio. They explain what individual choices change, clarify less familiar controls, and make the large creative workflow easier to explore without leaving the current step.
+Context-sensitive tooltips and expanded toolbox panels throughout the studio explain what individual choices change, clarify less familiar controls, and make the large creative workflow easier to explore without leaving the current step.
 
 #### Explore and Control the Visual Style
 
@@ -113,7 +113,7 @@ The dashboard is more than decoration: it provides live CPU, GPU, memory, networ
 
 ## AI Creation Tools
 
-Tool Launcher 1.0 includes AI-assisted prompt and image workflows. Direct image generation inside the application is disabled in this release. Prompts can be transferred to supported external AI services, and the resulting image can then be imported into Tool Launcher.
+Tool Launcher includes AI-assisted prompt and image workflows. Direct image generation inside the application is disabled in the packaged application. Prompts can be transferred to supported external AI services, and the resulting image can then be imported into Tool Launcher.
 
 ### Background Generator
 
@@ -164,7 +164,7 @@ The Background Generator includes local image upscaling based on Real-ESRGAN NCN
 
 ## Themes & Customization
 
-Version 1.0 includes the following selectable presets:
+Tool Launcher includes the following selectable presets:
 
 - Custom
 - Steam
@@ -213,13 +213,13 @@ The installer interface is available in English and German. The initial launcher
 
 ## Installation
 
-1. Download `Tool Launcher Setup 1.0.3.exe` from the [official GitHub release](https://github.com/Bobic1983/Tool-Launcher/releases/latest).
+1. Download the latest Tool Launcher setup file from the [official GitHub release](https://github.com/Bobic1983/Tool-Launcher/releases/latest).
 2. Run the installer.
 3. Choose the destination folder and optional desktop, Start menu, and autostart settings.
 4. Select the initial launcher language.
 5. Start Tool Launcher when installation is complete.
 
-The Version 1.0 installer is not digitally signed. Windows SmartScreen may therefore display an unknown-publisher warning. Verify that the installer came from the official project release before continuing.
+The installer is not digitally signed. Windows SmartScreen may therefore display an unknown-publisher warning. Verify that the installer came from the official project release before continuing.
 
 The installer is per-user and does not require a machine-wide installation. The uninstaller can optionally remove local Tool Launcher user data; that option is disabled by default.
 
@@ -269,7 +269,7 @@ These links open external websites in the default browser.
 
 ## Privacy
 
-Launcher configuration, hardware readings, backups, imported images, and local upscaling are processed on the user's computer. No application telemetry or active automatic update service was found in Version 1.0.
+Launcher configuration, hardware readings, backups, imported images, and local upscaling are processed on the user's computer. No application telemetry or active automatic update service is used.
 
 Tool Launcher opens approved external websites only for actions initiated by the user, such as ChatGPT, Gemini, PayPal, and Buy Me a Coffee. Those services are governed by their own privacy policies. Supplying a remote image URL instructs Tool Launcher to fetch that URL. Local and private network destinations are rejected, redirects are revalidated, and downloads are limited to 25 MB.
 
